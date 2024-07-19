@@ -1,0 +1,172 @@
+.cardCon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* margin: -10px; Adjust based on the spacing you want */
+}
+
+
+
+
+.genreImage{
+  width: 10rem;
+  height: 10rem;
+  margin: auto;
+}
+
+.cardDet {
+  /* border: 1px solid #ddd; */
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  /* padding: 20px; */
+  background-color: #e6ebe6;
+}
+
+.cardDet:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+.card-title {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #fff;
+  width: 100%; 
+  
+  /* max-width: 600px;  */
+  /* margin: 2%; */
+}
+
+.card-title:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-image-title img {
+  width: 150px; 
+  height: auto;
+  border-right: 1px solid #ddd;
+}
+
+.card-content-title {
+  padding: 20px;
+  flex: 1;
+}
+
+.card-title {
+  margin: 1%;
+  font-size: 1.5em;
+}
+
+.card-synopsis-title {
+  margin-top: 10px;
+  color: #666;
+}
+
+.card-date {
+  margin-top: 5%;
+  font-size: smaller;
+  color: #666;
+  font-weight: lighter;
+}
+
+.episode-card{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+
+.episode-title {
+border: 1px solid #ddd;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+transition: transform 0.2s, box-shadow 0.2s;
+background-color: #fff;
+width: 30%; 
+/* max-width: 600px;  */
+margin: 1%;
+/* font-style: italic; */
+}
+
+.episode-title:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.series-name{
+width: 100%;
+margin: 2%;
+text-align: center;
+font-weight: 400;
+font-size: xx-large;
+/* font-style: italic; */
+}
+
+/*  */
+
+
+
+.inputCon{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90vh;
+}
+
+
+input {
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+input:hover {
+  transform: scale(1.5);
+}
+
+.wth-mov{
+  margin-top: 1%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.wth-tlr  {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1%;
+}
+.details-strip{
+  display: flex;
+  justify-content: space-around;
+  font-size: small;
+  font-weight: lighter;
+  margin-top: 3%;
+}
+.details-strip-data{
+  width: 23%;
+}
+
+.icon-space{
+  margin-right: 4%;
+}
+.wth-btn{
+  margin-top: 4%;
+  /* border: 1px solid black; */
+}
